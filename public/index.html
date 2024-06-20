@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Main College Predictor | College Nexus</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Use the JEE Main College Predictor by College Nexus to find out which colleges you may be eligible for based on your JEE Main rank, category, and other preferences.">
+    <meta name="keywords" content="JEE Main, College Predictor, College Nexus, JoSAA, JEE Main 2024, College Admission, Engineering Colleges, NIT, IIIT, GFTI">
+    <meta name="author" content="Aman Bind">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="JEE Main College Predictor | College Nexus">
+    <meta property="og:description" content="Use the JEE Main College Predictor by College Nexus to find out which colleges you may be eligible for based on your JEE Main rank, category, and other preferences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://college-nexus.onrender.com/">
+    <meta property="og:image" content="">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JEE Main College Predictor | College Nexus">
+    <meta name="twitter:description" content="Use the JEE Main College Predictor by College Nexus to find out which colleges you may be eligible for based on your JEE Main rank, category, and other preferences.">
+    <meta name="twitter:image" content="http://collegenexus.com/images/college-nexus-logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://college-nexus.onrender.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFAklEQVR4nO1WW2gjVRhO0QcVb+vWXfHNRdbFy7IrLD4U9EVRRBAf9kVQQVRQSSZJW5OZyd0X8dk3BVFpV2bapGnmTGaS6oKIioi4KCgLS8F2ZpJmcuaS0m21zciZbiYzk8k0affN+eCHkv7n+77/MmcmFAoQIECAAAECBAjgC4oybiGZxrM4I4fxikwQFfnNJNBOh24SUlXtEQK038IBJAhGjuDlxnNI88jEBICvp1nlaq6u7xVWNg13ZHl9iwTqSpJpnBqXO1ZuPpxi1W9yvHbdixtppqvKVZKBr41tHC/Ds+mquuZF7BX5WqdLgnbx4ghdy142biVZZSlX17uj8qc4dS0B4BMjmU8B+Gquru+OSm6PDKeux5f1yWHcyaJ2fJzGFOzTrum7aCN8zRMMfBl18zACvUhzmpa93HxgoPN850SG09SjcOdqnS7BKq94j7bWejDL6/8MP6x305wKU1VVSnPaZr7e8ZmEruIrjZM9bvQ3+s23w7y2leHVjewB3Mgj8jpQAFlVfvIenbabrLQ/iVF/327Px1nxUQLAX/MHFOFnPo/2u6r8nlhSzjtWjVGPpVg4P+zySAHlR4d5fLl1xqvqDKdexyvS435rhwP1o/yKd8eQ8eHmOwYO4Mf+3O2pXE3fGThb7xiOa5wE8JJHUnem3J7yE7DOMzCZr4++y8gAwUJyFO5kZePFgkeDCADnraQ0p0oHjukA4JX29ChFIPOJ5dbsONwkq/42eFmokpWQ4wfHlDzECwQH7Q/8HkCz8wDi4/ISVRgZuFR4fcdWofKv++FKzqnHxhWyivAYOfqNYOTsYTjJsvKQm49k4a6VkCi3tt0J4a/kuw8jRgAt7zUFswCg5A/DmeW2z7j5kGcrIUZL19yis+WNi+MK4axSsD9wGU4zwzkFOPYUcBa+625GjBavWQkRSizhDHSOCMAfxhIBSs5tProgmjFQBIDpcbhTVfWK3RvOtA2MEpesBIwW3kZCOV7vPyS1Thdf1p8ZRQB1Ne9hHqP34yhFpDj4kn07kMfogmQgz1ZSfE6YxGihEy82kfG+EV7fSTAbT/sJkK4Xmd18hBK/QzGsCLwi+77IkmzrQobXrBsSFRIvNpD5TpgS73ckY5RQQELTJVREfxL5emcvBeA8vtI56eh6STmXAs7RpqqKEaUly/x7VPNOFFYRtGTm2G87klP/SC/JT9m5s5x6H8kqX+Rq/U8J5Gm62NznpoUPB6qdXWrdhVHinyghtigZJNsX6lWf5jQ1bX7MqVvO/20aiYpsrUzPfI/bXgSKxLJsninYCsnW9O10VZUzvKbbV8b8XmKVG2uDzIt/Db0h45fWT0coUekJoWmQAJrmvV5MWV4zkpW2WbDN/PeoGW7ud5aFOzBK+Lb/XEjmWcThxY1WmWShgda6zy3oUVp6zG/tQhF67WyEFlZ7h/ZHLxrxomTMlJrGTGnDmCk2HaYtAVr8Ghkdxv3G56u3YbTwpftcbFEyphGvGYi7YWo68ihxLbIoXgiNAvSAIDMYJXTdYp5BiXKYEsIhw5g4kNwwJiKUgEVosT0at9BFXqYXpRMjmXcUQq+fj9DipxFKEAe7LexhlPAzRgl4goL3jMuNlVbvxSiRxGjxF69G3dD8DHkIHRmGMRFdaJyKLghT2ILwPEatn3u/uH48dJMQnxMmo4vCk2FKfAFpIK2RphkgQIAAAQIECPA/x3+Fj+z+/7A7sgAAAABJRU5ErkJggg==" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+<link rel="stylesheet" type="text/css" href="/styles/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+
+
+
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <div class="logo">
+                <h1 id="linking">College Nexus</h1>
+            </div>
+            <h2>JEE Main 2024 College Predictor</h2>
+            <p>Data Source: JoSAA (2023) 6th round</p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form id="predictForm">
+            <div class="form-group">
+                <!-- enter category rank if choosing category -->
+                
+                <label for="rank">Your Rank :</label>
+
+                <input type="number" id="rank" name="rank" placeholder="Enter Your Category rank if choosing category ">
+            </div>
+            <div class="form-group">
+                <label for="seatType">Your Category</label>
+                <select id="seatType" name="seatType">
+                    <option value="OPEN">OPEN</option>
+                    <option value="OPEN (PwD)">Open-PwD</option>
+                    <option value="OBC-NCL">OBC-NCL</option>
+                    <option value="OBC-NCL (PwD)">OBC-NCL-PwD</option>
+                    <option value="SC">SC</option>
+                    <option value="SC (PwD)">SC-PwD</option>
+                    <option value="ST">ST</option>
+                    <option value="ST (PwD)">ST-PwD</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <label for="collegeType">Type of College : NIT/IIIT/GFTI </label>
+                <select id="collegeType" name="collegeType" aria-placeholder="choose college option">
+                    <option value="all">All Colleges</option> <!-- Default value -->    
+                    <option value="NIT">National Institute of Technology</option>
+                    <option value="IIIT">Indian Institute of Information Technology</option>
+                    <option value="GFTI">Government Funded Technical Institute</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="state">Select State</label>
+                <select id="domicile" name="domicile">
+                        <option value="all">All States</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                    
+                </div>
+            <div class="form-group">
+                <label for="gender">Select Gender :</label>
+                <div>
+                    <input type="radio" id="genderNeutral" name="gender" value="Gender-Neutral" checked>
+                    <label for="genderNeutral">Gender-Neutral</label>
+                    <input type="radio" id="femaleOnly" name="gender" value="Female-only (including Supernumerary)">
+                    <label for="femaleOnly">Female-only (including Supernumerary)</label>
+                </div>
+            </div>
+            <button type="button" onclick="predictCollege()">Predict My Colleges</button>
+        </form>
+    </div>
+
+    <div id="spinner" class="spinner" style="display:none;">
+        <img src="/assets/loading.gif" alt="Loading..."> Loading...
+    </div>
+
+    
+    <h2 id="eligibleCount"></h2>
+    <p id="eligiblemsg"></p>
+    <h2>Eligible Colleges: </h2>
+
+    <ul id="results"></ul>
+
+    <div class="faq-instructions">
+        <h2>How to Use the JEE Main College Predictor</h2>
+        <ol>
+            <li>Enter your JEE Main rank in the "Your Rank" field.</li>
+            <li>Select your category from the "Your Category" dropdown.</li>
+            <li>Select the type of college you are interested in from the "Type of College" dropdown.</li>
+            <li>Choose your gender from the "Select Gender" options.</li>
+            <li>Click on the "Predict My Colleges" button to see the eligible colleges.</li>
+        </ol>
+
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="faq">
+            <div class="faq-item">
+                <h3 class="faq-question">What is the JEE Main College Predictor?</h3>
+                <div class="faq-answer">
+                    <p>The JEE Main College Predictor is a tool that helps you find the list of colleges you may be eligible for based on your JEE Main rank, category, and other preferences.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question" id="faq-section">At some ranks no college eligible is shown, Why?</h3>
+                <div class="faq-answer">
+                    <p>
+                        There could be several reasons why no colleges are shown as eligible for a particular rank:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>High Rank:</strong> Your rank might be not in the range of previous year OR-CR range , so no college is filtered. you can approxiamte your rank by +/- 100 ranks to get better results.
+                        </li>
+                        <li>
+                            <strong>Data Limitations:</strong> The predictions are based on the previous year's data (JoSAA 2023, 6th round). Admission trends and cutoffs can vary each year, and the current dataset might not cover all possible scenarios.
+                        </li>
+                        <li>
+                            <strong>Filters:</strong> The filters you selected (category, gender, college type) might limit the number of eligible colleges. Try adjusting the filters to see if more options become available.
+                        </li>
+                      
+                    </ul>
+                    <p>
+                        If you believe there is an error or need more information, please feel free to contact us at <a href="mailto:amanbind898@gmail.com">support@collegenexus</a>.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">How accurate is the prediction?</h3>
+                <div class="faq-answer">
+                    <p>The predictions are based on the data from JoSAA (2023) 6th round, and while they provide a good estimate, actual cutoffs may vary.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Can I rely on this tool for my final college decision?</h3>
+                <div class="faq-answer">
+                    <p>This tool is intended to provide guidance. Always refer to the official sources and counseling sessions for final decisions.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">What if I encounter issues using the tool?</h3>
+                <div class="faq-answer">
+                    <p>If you encounter any issues or have any questions, please contact us at infincodes@gmail.com </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>College Nexus is your ultimate guide to finding the best colleges and programs. 
+                    <br>
+                    Stay connected with us for the latest updates and information.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="https://college-nexus.onrender.com/#contact">Contact</a></li>
+                    <li><a href="/pages/privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer-section social-icons">
+                <h3>Follow us on:</h3>
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/infincodes/" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aman-bind-306152289" class="icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 College Nexus by Aman Bind. All rights reserved.
+        </div>
+    </div>
+    
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
