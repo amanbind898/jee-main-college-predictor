@@ -45,7 +45,7 @@ fs.createReadStream(csvFilePath)
   });
 
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static(__dirname.join, 'public'));
 app.use(cors());
 
 app.post('/predict', (req, res) => {
